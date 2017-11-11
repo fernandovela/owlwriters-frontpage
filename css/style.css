@@ -1,0 +1,56 @@
+/*
+1vw = 1% of viewport width
+1vh = 1% of viewport height
+1vmin = 1vw or 1vh, whichever is smaller
+1vmax = 1vw or 1vh, whichever is larger
+*/
+body, html {
+    font-family: Courier New, Courier, monospace;
+    margin: 0;
+    height: 100%;
+    width: 100%
+}
+
+#container {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+#typespace {
+    display: flex;
+    justify-content: center;
+    font-size : 2.5vh;
+    margin-left:20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    margin-bottom: 10%  
+}
+
+#links {
+    margin-top: 5%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    -webkit-padding-start: 0px;
+}
+
+li {
+    width: 50%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+a:link {
+    font-family: Courier New, Courier, monospace;
+    color: #433028; 
+}
+
+a:hover {
+    color: #9f7360;
+}
